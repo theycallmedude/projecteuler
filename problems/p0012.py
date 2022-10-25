@@ -8,15 +8,11 @@ def check_divisors(num):
             check_size = check_size + 1
     return check_size*2
 
-# check = 0
-# it = 1
+check = 0
+it = 1
 
-# while check_divisors(it) <= 500:
-#     check = check + it
-#     it = it + 1 
+while check_divisors(check) < 500:
+    check = check + it
+    it = it + 1 
 
-# print(check)
-
-# print(it)
-
-print(check_divisors(5040))
+print(check)
